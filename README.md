@@ -3,4 +3,5 @@ Este proyecto esta diseñado para una Micro Empresa de fotografia "PhotoCampus" 
 ESTUDIANTES ACARGO DEL DESARROLLO DE LA ACTIVIDAD:
 
 |Alvaro Andres Angarita Escobar|Cood:0003874247|
+
 |Brenda Nicol Carrillo Gonzales|Cood:0002114155|
