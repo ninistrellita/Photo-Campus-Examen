@@ -1,7 +1,7 @@
 import csv
 
 def registrar_servicio ():
-    nombre_servicio = input("Ingrese el servivo que desee agregar: ")
+    nombre_servicio = input("Ingrese el servicio que desee agregar: ")
     encabezado = ["Servicios disponibles"]
     nuevo_servio = {"Servicios disponibles" : nombre_servicio}
 
