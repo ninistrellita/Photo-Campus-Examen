@@ -5,7 +5,7 @@ print("1. Registrar servicios")
 print("2. Editar servicios")
 print("3. Eliminar servicios")
 print("4. Salir")
-opcion = input("Digite opcion: ")
+opcion = input("Digite opcion")
 print("-----------------------")
 
 if opcion == "1" :
