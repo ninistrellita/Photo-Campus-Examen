@@ -3,7 +3,8 @@ def editar_servicio():
     archivo = "Servicio.csv"
     nombre_viejo = input("Nombre del servicio a editar: ")
     nombre_nuevo = input("Nuevo nombre del servicio: ")
-    
+    encabezado = ["servicio","precio","evento","duracion"]
+
     filas = []
     editado = False
 
@@ -11,15 +12,15 @@ def editar_servicio():
     with open(archivo, "r") as f:
         lector = csv.DictReader(f)
         for fila in lector:
-            if fila["Servicios disponibles"] == nombre_viejo:
-                fila["Servicios disponibles"] = nombre_nuevo
+            if fila["Servicio"] == nombre_viejo:
+                fila["Servicio"] = nombre_nuevo
                 editado = True
             filas.append(fila)
 
     
     if editado:
         with open(archivo, "w", newline="") as f:
-            escritor = csv.DictWriter(f, fieldnames=["Servicios disponibles"])
+            escritor = csv.DictWriter(f, fieldnames=encabezado)
             escritor.writeheader()
             escritor.writerows(filas)
         print("Servicio actualizado.")
