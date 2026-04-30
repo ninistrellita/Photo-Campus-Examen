@@ -6,7 +6,7 @@ def editar_servicio():
     filas = []
     editado = False
 
-    # Leemos todo
+    
     with open(archivo, "r") as f:
         lector = csv.DictReader(f)
         for fila in lector:
@@ -15,7 +15,7 @@ def editar_servicio():
                 editado = True
             filas.append(fila)
 
-    # Escribimos de nuevo
+    
     if editado:
         with open(archivo, "w", newline="") as f:
             escritor = csv.DictWriter(f, fieldnames=["Servicios disponibles"])
