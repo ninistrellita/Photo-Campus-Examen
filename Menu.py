@@ -1,4 +1,4 @@
-from Servicios import registrar_servicio
+from registrar_servicios import registrar_servicio
 
 print("----------MENU---------")
 print("1. Registrar servicios")

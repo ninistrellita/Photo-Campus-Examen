@@ -8,10 +8,6 @@ def registrar_servicio ():
 
 
     encabezado = ["Servicio" , "Precio" , "Evento" , "Duracion"]
-    nuevo_servio = {"Servicios" : nombre_servicio}
-    precio = {"Precio" : precio_servicio}
-    evento = {"Evento" : evento_servicio}
-    duracion ={"Duracion" : duracion_servicio}
 
     servicios = [{
     "Servicio": nombre_servicio,
@@ -32,4 +28,4 @@ def registrar_servicio ():
         escritor = csv.DictWriter(f,fieldnames=encabezado)
         if not encabezado_existe :
             escritor.writeheader()
-            escritor.writerows(servicios)
+        escritor.writerows(servicios)
