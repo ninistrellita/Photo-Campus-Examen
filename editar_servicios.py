@@ -3,7 +3,7 @@ def editar_servicio():
     archivo = "Servicio.csv"
     nombre_viejo = input("Nombre del servicio a editar: ")
     nombre_nuevo = input("Nuevo nombre del servicio: ")
-    encabezado = ["servicio","precio","evento","duracion"]
+    encabezado = ["Servicio","Precio","Evento","Duracion"]
 
     filas = []
     editado = False
