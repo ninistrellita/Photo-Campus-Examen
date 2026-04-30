@@ -1,1 +1,1 @@
-# Photo-Campus-Examen
+Este proyecto esta diseñado para una Micro Empresa de fotografia "PhotoCampus" con el fin de facilitar el registro de pedidos, servicios y precios facilitando al dueño de la empresa tener un facil manejo de las finazas diarias
